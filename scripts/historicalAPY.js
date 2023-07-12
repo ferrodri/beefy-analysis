@@ -10,7 +10,7 @@ const { AsyncParser } = require('@json2csv/node');
 const fs = require('fs');
 const path = require('path');
 
-const contractAddress = '0x6282FCa35943faBE45d6056F3751b3cf2Bf4504E';
+const contractAddress = '0xBDF4e730ED5152a7AC646BB7b514Ed624E1147C4';
 const numOfDays = 20;
 
 
@@ -49,6 +49,7 @@ async function main() {
             console.log(err);
             return;
         }
+        console.log('Historic data saved correctly into CSV');
     });
 }
 
