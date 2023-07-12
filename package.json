@@ -7,8 +7,8 @@
         "url": "git+https://github.com/ferrodri/beefy-analysis"
     },
     "scripts": {
-        "historical-APY:arbitrum": "npx hardhat run scripts/historicalAPY.js --network arbitrum",
-        "historical-APY:mainnet": "npx hardhat run scripts/historicalAPY.js --network mainnet"
+        "historical-APY:arbitrum": "npx hardhat historical-APY --network arbitrum",
+        "historical-APY:mainnet": "npx hardhat historical-APY --network mainnet"
     },
     "author": "Fernando Rodriguez Hervias",
     "license": "MIT",
