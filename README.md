@@ -1,3 +1,7 @@
+# To setup the project
+
+Set node version with `nvm use v18.12.0` and run `npm i`
+
 # How to get historical APY from a contract
 
 Input the command `npm run historical-APY:arbitrum` or `npm run historical-APY:mainnet` depending on the chain the vault is. 
