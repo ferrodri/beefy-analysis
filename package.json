@@ -1,0 +1,24 @@
+{
+    "name": "beefy-analysis",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferrodri/beefy-analysis"
+    },
+    "scripts": {
+        "test": "npx hardhat test"
+    },
+    "author": "Fernando Rodriguez Hervias",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ferrodri/beefy-analysis/issues"
+    },
+    "homepage": "https://github.com/ferrodri/beefy-analysis#readme",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-network-helpers": "1.0.6",
+        "@nomicfoundation/hardhat-toolbox": "1.0.2",
+        "eslint": "8.26.0",
+        "hardhat": "2.12.0"
+    }
+}
