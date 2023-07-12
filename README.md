@@ -1,1 +1,1 @@
-TODO: public or private repositories, organization? license?
+TODO: public or private repositories, organization? license?, get days since contract creation?

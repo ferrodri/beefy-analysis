@@ -7,7 +7,7 @@
         "url": "git+https://github.com/ferrodri/beefy-analysis"
     },
     "scripts": {
-        "test": "npx hardhat test"
+        "historical-APY": "npx hardhat run scripts/historicalAPY.js --network mainnet"
     },
     "author": "Fernando Rodriguez Hervias",
     "license": "MIT",
@@ -20,5 +20,8 @@
         "@nomicfoundation/hardhat-toolbox": "1.0.2",
         "eslint": "8.26.0",
         "hardhat": "2.12.0"
+    },
+    "dependencies": {
+        "@json2csv/node": "7.0.1"
     }
 }
